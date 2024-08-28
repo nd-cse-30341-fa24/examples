@@ -1,5 +1,5 @@
 CC=	gcc
-CFLAGS=	-std=gnu99 -Wall
+CFLAGS=	-Wall -g -std=gnu99
 
 all:	cat
 
