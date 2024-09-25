@@ -14,12 +14,12 @@ const size_t PRIME_MAX = 400000;
 
 /* Functions */
 
-bool is_prime(size_t n) {
+size_t is_prime(size_t n) {
     for (size_t i = 2; i < n; i++) {
     	if (n % i == 0)
-    	    return false;
+    	    return 0;
     }
-    return true;
+    return 1;
 }
 
 /* Main execution */
